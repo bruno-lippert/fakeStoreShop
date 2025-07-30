@@ -1,0 +1,5 @@
+.input {
+  label {
+    color: var(--bs-body-color);
+  }
+}

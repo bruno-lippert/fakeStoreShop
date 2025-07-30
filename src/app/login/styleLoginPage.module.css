@@ -1,0 +1,7 @@
+.loginContainer {
+  padding: 15px 50px !important;
+
+  background-color: var(--bs-card-bg);
+  color: var(--bs-card-color);
+  box-shadow: var(--bs-shadow);
+}

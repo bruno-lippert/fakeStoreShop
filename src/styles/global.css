@@ -1,0 +1,23 @@
+:root {
+  --bs-primary: #0d6efd;
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #212529;
+  --bs-card-bg: #fff;
+  --bs-card-color: #000;
+  --bs-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Tema escuro */
+[data-theme="dark"] {
+  --bs-primary: #4a90e2;
+  --bs-body-bg: #121212;
+  --bs-body-color: #eee;
+  --bs-card-bg: #1e1e1e;
+  --bs-card-color: #fff;
+  --bs-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
